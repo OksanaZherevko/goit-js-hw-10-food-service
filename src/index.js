@@ -2,9 +2,9 @@ import './css/styles.css';
 import menu from './menu.json';
 import refs from './js/refs';
 import { changeCheme } from './js/changeCheme';
-import menuCarts from './templates/menu-cards.hbs';
+import menuCards from './templates/menu-cards.hbs';
 
-const generateMenu = menuCarts(menu);
+const generateMenu = menuCards(menu);
 
 if (localStorage.getItem('themColor')) {
   refs.documentThem.classList.add(localStorage.getItem('themColor'));

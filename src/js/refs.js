@@ -1,7 +1,6 @@
   
 export default {
-  body: document.querySelector('body'),
-  toolbar: document.querySelector('.toolbar'),
-  toggle: document.querySelector('.theme-switch__toggle'),
-  menu: document.querySelector('.js-menu'),
+  documentThem: document.body,
+  checkBox: document.querySelector('.theme-switch__toggle'),
+  menuList: document.querySelector('.js-menu'),
 };
